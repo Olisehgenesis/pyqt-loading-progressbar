@@ -8,15 +8,15 @@ Animation is set to dynamic by default.
 You can set it with `setAnimationType(type: str)`. You can give 'dynamic' or 'fade' to `type` argument.
 
 ## Requirements
-* PyQt5 >= 5.8
+* Updated to QT6  PyQt6 >= 6.7.0
 
 ## Setup
-`python -m pip install pyqt-loading-progressbar`
+`python -m pip install pyqt6-loading-progressbar`
 
 ## Example
-### Code Sample
+### Code Sample for pyqt6
 ```python
-from PyQt5.QtWidgets import QMainWindow, QApplication, QVBoxLayout, QLabel, QWidget
+from PyQt6.QtWidgets import QMainWindow, QApplication, QVBoxLayout, QLabel, QWidget
 from pyqt_loading_progressbar.loadingProgressBar import LoadingProgressBar
 
 
