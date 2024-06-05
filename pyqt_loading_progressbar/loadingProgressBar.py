@@ -1,5 +1,5 @@
-from PyQt5.QtWidgets import QProgressBar
-from PyQt5.QtCore import QPropertyAnimation, QAbstractAnimation, QEasingCurve
+from PyQt6.QtWidgets import QProgressBar
+from PyQt6.QtCore import QPropertyAnimation, QAbstractAnimation, QEasingCurve
 
 
 class LoadingProgressBar(QProgressBar):
